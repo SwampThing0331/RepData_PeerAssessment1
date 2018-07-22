@@ -3,6 +3,7 @@ title: "Reproducible Research Wk 2 Project"
 author: "Andrew Januszewski"
 date: "July 22, 2018"
 output: html_document
+keep_md: true
 ---
 
 
@@ -22,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ##**Loading and Preprocessing Data**
 
-```{r message = FALSE, cache = TRUE}
+```{r message = FALSE}
 data_url <- 'https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip'
 
 if(!file.exists("./activity.zip")) {
