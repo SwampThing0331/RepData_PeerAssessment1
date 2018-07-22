@@ -12,7 +12,7 @@ keep_md: true
 
 ```{r setup, message = FALSE, warning = FALSE}
 #getwd()
-#setwd('~/datasciencecoursera/RepData_PeerAssessment1')
+setwd('~/datasciencecoursera/RepData_PeerAssessment1')
 
 library(tidyverse)
 library(knitr)
