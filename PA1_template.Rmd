@@ -5,6 +5,8 @@ date: "July 22, 2018"
 output: 
       html_document:
             keep_md: true
+      #md_document:
+            #variant: markdown_github            
 ---
 
 
